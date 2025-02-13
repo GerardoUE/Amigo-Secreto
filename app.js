@@ -13,6 +13,7 @@ function agregarAmigo() {
     nombres.push(nombre);
     lista()
     input.value = "";
+    document.getElementById("resultado").textContent = '';
 }
 // Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entras
 function lista(){
@@ -39,8 +40,12 @@ function sortearAmigo() {
     document.getElementById("resultado").textContent = resultado;
 
     // Ocultar la lista de nombres
-    document.getElementById("lista").style.display = "none";
-    lista("none")
+    document.getElementById('listaAmigos').innerHTML="";
+    
+    nombres = [];
+
+
+
 }
 
 
