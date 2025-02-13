@@ -1,7 +1,3 @@
-AMIGO SECRETO
-
-Aquí tienes una descripción bien estructurada para el README.md de tu proyecto:
-
 🎁 Amigo Secreto - Sorteo Aleatorio
 
 Una aplicación web sencilla para realizar un sorteo de Amigo Secreto. Los usuarios pueden agregar nombres a una lista y luego realizar un sorteo aleatorio para seleccionar un ganador. Después del sorteo, la lista de nombres se borra automáticamente para comenzar un nuevo juego.
